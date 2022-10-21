@@ -1,0 +1,24 @@
+/*
+date: 21 oct 2022
+purpose: website build, levesque b.
+author: @bendl
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    padding-bottom: 0px;
+}
+
+.caption {
+    text-align: center;
+    padding-top: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
