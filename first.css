@@ -28,9 +28,10 @@ h1 {
 }
 
 h2 {
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: left;
 }
 
 .caption {
@@ -51,57 +52,20 @@ body {
     max-width: fit-content;
 }
 
-/* .info + .bio {
-    display: flex;
-    justify-content: space-evenly;
-} */
-
-/* .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 3px;
-    max-width: 50%;
-} */
 
 .columns {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
 }
 
 .columns-container {
-    background-color: aqua;
+    background-color: antiquewhite;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    text-align: left;
 }
 
-/* .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 20px;
-    max-width: 75%;
-    padding-left: 20px;
-    flex-direction: column;
-    }
-    
-.div1 { grid-area: 1 / 1 / 2 / 2; }
-.div2 { grid-area: 2 / 1 / 3 / 2; }
-.div3 { grid-area: 1 / 2 / 2 / 3; } */
-
-
-/* .skills-list:not(:last-child) {
-    margin-bottom: 10px;
-} */
-
-/* .projects-list {
-    padding-top: 0px;
-    padding-left: 22px;
-} */
-
-/* h2 + ul {
-    margin-top: -2px;
-} */
