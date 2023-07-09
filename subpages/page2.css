@@ -1,0 +1,72 @@
+/*
+date: 21 oct 2022
+purpose: website build, levesque b.
+author: @bendl
+*/
+
+@import url('//fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&family=Roboto:ital,wght@1,300&display=swap');
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight:bold;
+    text-align: left;
+    font-size: 84px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+
+    display:block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  li a {
+    text-align: left;
+  }
+
+  .versions {
+    /* The versions should be a vertical, unordered list */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding-left: 20px;
+  }
